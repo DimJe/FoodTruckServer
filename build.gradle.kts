@@ -35,8 +35,9 @@ dependencies {
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 	implementation("org.springframework.boot:spring-boot-starter-mustache")
 	implementation ("org.springframework.boot:spring-boot-starter-data-jpa")
-	implementation ("mysql:mysql-connector-java:8.0.32")
-
+	//implementation ("mysql:mysql-connector-java:8.0.32")
+	implementation("org.mariadb.jdbc:mariadb-java-client:3.1.0")
+	implementation("org.hibernate:hibernate-entitymanager:5.3.13.Final")
 	implementation ("org.modelmapper:modelmapper:3.1.0")
 
 }
